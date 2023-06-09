@@ -4,7 +4,7 @@ from io import BytesIO
 import urllib.request
 from tensorflow.keras.utils import load_img, img_to_array
 
-model = tf.keras.models.load_model('fresh_fruit_alpha_v3.h5')
+model = tf.keras.models.load_model('fresh_fruit_alpha_v32.h5')
 path = "https://firebasestorage.googleapis.com/v0/b/bidtrade-710bf.appspot.com/o/banana-rotten.jpg?alt=media&token=1ef7e0fd-0dab-4b2e-967d-54f028462b28"
 
 def loadImage(image_url):
